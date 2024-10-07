@@ -1,0 +1,58 @@
+/* style.css */
+
+/* Centraliza o conteúdo dentro da section */
+.section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  /* Estilo do container da grid */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanho igual */
+    gap: 20px;  /* Espaçamento entre os cards */
+    max-width: 1200px; /* Para controlar o tamanho máximo da grid */
+  }
+  
+  /* Estilo do card */
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra leve */
+    overflow: hidden;  /* Para cortar o conteúdo excedente */
+    text-align: center;  /* Centraliza o texto no card */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Estilo do card com a imagem de fundo */
+  .card-img {
+    width: 100%;
+    height: 200px;  /* Altura da imagem */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Estilo do corpo do card */
+  .card-body {
+    padding: 20px;
+  }
+  
+  /* Estilo do título do card */
+  .card-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo do texto do card */
+  .card-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  

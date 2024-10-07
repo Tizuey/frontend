@@ -1,0 +1,18 @@
+/* style.css */
+
+/* Estilo para a seção que contém o carousel */
+.carousel-section {
+    display: flex; /* Usar flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: auto; /* Altura mínima para ocupar toda a altura da tela */
+    background-color: #f7f7f7; /* Cor de fundo opcional */
+    /*padding: 20px; /* Espaçamento interno */
+  }
+  
+  /* Estilo para o carousel */
+  .custom-carousel {
+    width: 80%; /* Largura do carousel */
+    max-width: 800px; /* Largura máxima */
+  }
+  
